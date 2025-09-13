@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+.env
+.venv/
+venv/
+ENV/
+
+# ROS 2
+build/
+install/
+log/
+*.launch.py~
+
+# Webots
+*.wbo
+*.bak
+*.tmp
+
+# Jupyter / TensorBoard logs
+.ipynb_checkpoints/
+runs/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
