@@ -1,0 +1,7 @@
+[console_scripts]
+ppo_evaluation_agent = scripts.rl_agents.ppo_evaluation_agent:main
+sac_evaluation_agent = scripts.rl_agents.sac_evaluation_agent:main
+train_agent = scripts.rl_agents.train_agent:main
+turtlebot_rl_env_node = scripts.turtlebot_rl_env:main
+webots_supervisor_reset_node = scripts.webots_supervisor_reset:main
+

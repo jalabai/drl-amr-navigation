@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlebot3_rl_env.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_rl_env.egg-info/dependency_links.txt
+writing entry points to turtlebot3_rl_env.egg-info/entry_points.txt
+writing requirements to turtlebot3_rl_env.egg-info/requires.txt
+writing top-level names to turtlebot3_rl_env.egg-info/top_level.txt
+reading manifest file 'turtlebot3_rl_env.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_rl_env.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3-rl-env.egg-link (link to .)
+Installing turtlebot_rl_env_node script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env
+Installing webots_supervisor_reset_node script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env
+
+Installed /home/jala/ros2_ws/build/turtlebot3_rl_env
+running symlink_data

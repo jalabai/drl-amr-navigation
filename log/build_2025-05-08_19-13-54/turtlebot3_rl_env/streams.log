@@ -1,0 +1,21 @@
+[0.720s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl_env': PYTHONPATH=/home/jala/ros2_ws/build/turtlebot3_rl_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jala/ros2_ws/build/turtlebot3_rl_env/build --no-deps symlink_data --force
+[0.934s] running develop
+[1.088s] running egg_info
+[1.088s] writing turtlebot3_rl_env.egg-info/PKG-INFO
+[1.088s] writing dependency_links to turtlebot3_rl_env.egg-info/dependency_links.txt
+[1.088s] writing entry points to turtlebot3_rl_env.egg-info/entry_points.txt
+[1.089s] writing requirements to turtlebot3_rl_env.egg-info/requires.txt
+[1.089s] writing top-level names to turtlebot3_rl_env.egg-info/top_level.txt
+[1.090s] package init file 'turtlebot3_rl_env/__init__.py' not found (or not a regular file)
+[1.091s] reading manifest file 'turtlebot3_rl_env.egg-info/SOURCES.txt'
+[1.092s] writing manifest file 'turtlebot3_rl_env.egg-info/SOURCES.txt'
+[1.093s] running build_ext
+[1.093s] Creating /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3-rl-env.egg-link (link to .)
+[1.094s] Installing turtlebot_rl_env_node script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env
+[1.095s] Installing webots_supervisor_reset_node script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env
+[1.096s] 
+[1.096s] Installed /home/jala/ros2_ws/build/turtlebot3_rl_env
+[1.096s] running symlink_data
+[1.096s] symbolically linking /home/jala/ros2_ws/build/turtlebot3_rl_env/resource/turtlebot3_rl_env -> /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index/packages
+[1.097s] symbolically linking /home/jala/ros2_ws/build/turtlebot3_rl_env/package.xml -> /home/jala/ros2_ws/install/turtlebot3_rl_env/share/turtlebot3_rl_env
+[1.122s] Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl_env' returned '0': PYTHONPATH=/home/jala/ros2_ws/build/turtlebot3_rl_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jala/ros2_ws/build/turtlebot3_rl_env/build --no-deps symlink_data --force

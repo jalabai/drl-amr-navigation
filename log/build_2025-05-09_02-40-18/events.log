@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (-) JobUnselected: {'identifier': 'test_pkg'}
+[0.000541] (-) JobUnselected: {'identifier': 'turtlebot3_rl'}
+[0.000589] (turtlebot3_rl_env) JobQueued: {'identifier': 'turtlebot3_rl_env', 'dependencies': OrderedDict()}
+[0.000627] (turtlebot3_rl_env) JobStarted: {'identifier': 'turtlebot3_rl_env'}
+[0.085928] (-) TimerEvent: {}
+[0.186587] (-) TimerEvent: {}
+[0.287138] (-) TimerEvent: {}
+[0.387669] (-) TimerEvent: {}
+[0.488254] (-) TimerEvent: {}
+[0.588898] (-) TimerEvent: {}
+[0.689413] (-) TimerEvent: {}
+[0.790233] (-) TimerEvent: {}
+[0.891256] (-) TimerEvent: {}
+[1.194723] (-) TimerEvent: {}
+[1.295813] (-) TimerEvent: {}
+[1.396831] (-) TimerEvent: {}
+[1.497773] (-) TimerEvent: {}
+[1.598740] (-) TimerEvent: {}
+[1.699695] (-) TimerEvent: {}
+[1.800528] (-) TimerEvent: {}
+[1.901362] (-) TimerEvent: {}
+[2.002188] (-) TimerEvent: {}
+[2.103055] (-) TimerEvent: {}
+[2.203902] (-) TimerEvent: {}
+[2.304617] (-) TimerEvent: {}
+[2.405481] (-) TimerEvent: {}
+[2.506572] (-) TimerEvent: {}
+[2.608085] (-) TimerEvent: {}
+[2.708958] (-) TimerEvent: {}
+[2.809727] (-) TimerEvent: {}
+[2.910646] (-) TimerEvent: {}
+[3.011505] (-) TimerEvent: {}
+[3.297432] (-) TimerEvent: {}
+[3.738300] (-) TimerEvent: {}
+[3.839271] (-) TimerEvent: {}
+[3.939976] (-) TimerEvent: {}
+[4.040980] (-) TimerEvent: {}
+[4.142026] (-) TimerEvent: {}
+[4.242852] (-) TimerEvent: {}
+[4.344077] (-) TimerEvent: {}
+[4.444896] (-) TimerEvent: {}
+[4.545766] (-) TimerEvent: {}
+[4.646736] (-) TimerEvent: {}
+[4.747487] (-) TimerEvent: {}
+[4.848250] (-) TimerEvent: {}
+[4.949133] (-) TimerEvent: {}
+[5.049923] (-) TimerEvent: {}
+[5.075750] (turtlebot3_rl_env) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jala/ros2_ws/build/turtlebot3_rl_env/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jala/ros2_ws/build/turtlebot3_rl_env', 'env': {'USER': 'jala', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'HOME': '/home/jala', 'OLDPWD': '/home/jala/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jala/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jala', 'NAME': 'DESKTOP-FN3M0B8', 'WSL_INTEROP': '/run/WSL/21304_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jala/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Program Files/Python313/Scripts/:/mnt/c/Program Files/Python313/:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2023a/runtime/win64:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files/Python313:/mnt/c/Program Files/Python313/Scripts:/mnt/c/Users/HP/Downloads/pyenv-win-master/pyenv-win-master/pyenv-win/bin:/mnt/c/Users/HP/Downloads/pyenv-win-master/pyenv-win-master:/mnt/c/Users/HP/Downloads/pyenv-win-master:/mnt/c/Program Files/dotnet/:/mnt/c/Users/HP/Downloads:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git:/mnt/c/Program Files/Git/bin:/mnt/c/Windows/System32:/mnt/c/Users/HP/Downloads/webots_2025a_amd64/data.tar/data/usr/local/bin:/mnt/c/Users/HP/Downloads/webots_2025a_amd64/data.tar/data/usr/local/bin:/mnt/c/Program Files/Webots/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Program Files/Webots/webots.exe:/mnt/c/ProgramData/Microsoft/Windows/Start Menu/Programs/Cyberbotics:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap:/snap/bin', 'WT_SESSION': 'cfbbc639-84d1-4f9f-a043-8c4a67e5f0eb', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'AMENT_PREFIX_PATH': '/home/jala/ros2_ws/install/turtlebot3_rl_env:/home/jala/ros2_ws/install/turtlebot3_rl:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/home/jala/ros2_ws/build/turtlebot3_rl_env', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jala/ros2_ws/build/turtlebot3_rl_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages:/home/jala/ros2_ws/build/turtlebot3_rl_env:/home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jala/ros2_ws/install/turtlebot3_rl', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[5.150121] (-) TimerEvent: {}
+[5.250691] (-) TimerEvent: {}
+[5.351338] (-) TimerEvent: {}
+[5.452125] (-) TimerEvent: {}
+[5.552845] (-) TimerEvent: {}
+[5.636572] (turtlebot3_rl_env) StdoutLine: {'line': b'running develop\n'}
+[5.653255] (-) TimerEvent: {}
+[5.754251] (-) TimerEvent: {}
+[5.855136] (-) TimerEvent: {}
+[5.955753] (-) TimerEvent: {}
+[6.056451] (-) TimerEvent: {}
+[6.157339] (-) TimerEvent: {}
+[6.171177] (turtlebot3_rl_env) StdoutLine: {'line': b'running egg_info\n'}
+[6.172488] (turtlebot3_rl_env) StdoutLine: {'line': b'writing turtlebot3_rl_env.egg-info/PKG-INFO\n'}
+[6.174834] (turtlebot3_rl_env) StdoutLine: {'line': b'writing dependency_links to turtlebot3_rl_env.egg-info/dependency_links.txt\n'}
+[6.175714] (turtlebot3_rl_env) StdoutLine: {'line': b'writing entry points to turtlebot3_rl_env.egg-info/entry_points.txt\n'}
+[6.178123] (turtlebot3_rl_env) StdoutLine: {'line': b'writing requirements to turtlebot3_rl_env.egg-info/requires.txt\n'}
+[6.179162] (turtlebot3_rl_env) StdoutLine: {'line': b'writing top-level names to turtlebot3_rl_env.egg-info/top_level.txt\n'}
+[6.190409] (turtlebot3_rl_env) StdoutLine: {'line': b"reading manifest file 'turtlebot3_rl_env.egg-info/SOURCES.txt'\n"}
+[6.193725] (turtlebot3_rl_env) StdoutLine: {'line': b"writing manifest file 'turtlebot3_rl_env.egg-info/SOURCES.txt'\n"}
+[6.197994] (turtlebot3_rl_env) StdoutLine: {'line': b'running build_ext\n'}
+[6.198643] (turtlebot3_rl_env) StdoutLine: {'line': b'Creating /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3-rl-env.egg-link (link to .)\n'}
+[6.201234] (turtlebot3_rl_env) StdoutLine: {'line': b'Installing train_agent script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env\n'}
+[6.206060] (turtlebot3_rl_env) StdoutLine: {'line': b'Installing turtlebot_rl_env_node script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env\n'}
+[6.206591] (turtlebot3_rl_env) StdoutLine: {'line': b'Installing webots_supervisor_reset_node script to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/turtlebot3_rl_env\n'}
+[6.206815] (turtlebot3_rl_env) StdoutLine: {'line': b'\n'}
+[6.206994] (turtlebot3_rl_env) StdoutLine: {'line': b'Installed /home/jala/ros2_ws/build/turtlebot3_rl_env\n'}
+[6.207163] (turtlebot3_rl_env) StdoutLine: {'line': b'running symlink_data\n'}
+[6.257740] (-) TimerEvent: {}
+[6.261004] (turtlebot3_rl_env) CommandEnded: {'returncode': 0}
+[6.281267] (turtlebot3_rl_env) JobEnded: {'identifier': 'turtlebot3_rl_env', 'rc': 0}
+[6.283516] (-) EventReactorShutdown: {}

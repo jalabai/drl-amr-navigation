@@ -1,0 +1,1 @@
+[0.034s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jala/ros2_ws/install/turtlebot3_rl_env:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8

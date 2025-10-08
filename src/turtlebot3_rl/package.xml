@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlebot3_rl</name>
+  <version>0.0.0</version>
+  <description>My TurtleBot3 RL Project</description>
+  <maintainer email="jalebabayeva90@gmail.com">jala</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>webots_ros2_turtlebot</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

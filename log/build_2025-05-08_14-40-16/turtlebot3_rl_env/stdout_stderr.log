@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info
+writing ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jala/ros2_ws/build/turtlebot3_rl_env/build
+creating /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib
+creating /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib/turtlebot3_rl_env
+copying turtlebot3_rl_env/__init__.py -> /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib/turtlebot3_rl_env
+running install
+running install_lib
+creating /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env
+copying /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib/turtlebot3_rl_env/__init__.py -> /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env
+byte-compiling /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index
+creating /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index
+creating /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index/packages
+copying resource/turtlebot3_rl_env -> /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index/packages
+copying package.xml -> /home/jala/ros2_ws/install/turtlebot3_rl_env/share/turtlebot3_rl_env
+running install_egg_info
+Copying ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jala/ros2_ws/build/turtlebot3_rl_env/install.log'

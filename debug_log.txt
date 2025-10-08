@@ -1,0 +1,2 @@
+webots: invalid option: '--mode=stdout'
+Try 'webots --help' for more information.

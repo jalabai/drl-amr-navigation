@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jala/ros2_ws/src/turtlebot3_rl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jala/ros2_ws/install/turtlebot3_rl
+[0.358s] -- The C compiler identification is GNU 11.4.0
+[1.048s] -- The CXX compiler identification is GNU 11.4.0
+[1.565s] -- Detecting C compiler ABI info
+[1.769s] -- Detecting C compiler ABI info - done
+[1.775s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.775s] -- Detecting C compile features
+[1.776s] -- Detecting C compile features - done
+[1.779s] -- Detecting CXX compiler ABI info
+[2.004s] -- Detecting CXX compiler ABI info - done
+[2.010s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.010s] -- Detecting CXX compile features
+[2.010s] -- Detecting CXX compile features - done
+[2.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.154s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.335s] -- Configuring done
+[2.337s] -- Generating done
+[2.339s] -- Build files have been written to: /home/jala/ros2_ws/build/turtlebot3_rl
+[2.345s] Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jala/ros2_ws/src/turtlebot3_rl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jala/ros2_ws/install/turtlebot3_rl
+[2.345s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8
+[2.368s] Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8
+[2.375s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jala/ros2_ws/build/turtlebot3_rl
+[2.380s] -- Install configuration: ""
+[2.380s] -- Execute custom install script
+[2.381s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world.jpg
+[2.387s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world.wbproj
+[2.393s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world_backup.jpg
+[2.398s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world_backup.wbproj
+[2.405s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/warehouse_world.wbt
+[2.412s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/warehouse_world_backup.wbt
+[2.418s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/ament_index/resource_index/package_run_dependencies/turtlebot3_rl
+[2.424s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/ament_index/resource_index/parent_prefix_path/turtlebot3_rl
+[2.431s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/ament_prefix_path.sh
+[2.438s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/ament_prefix_path.dsv
+[2.444s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/path.sh
+[2.450s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/path.dsv
+[2.456s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.bash
+[2.461s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.sh
+[2.467s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.zsh
+[2.473s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.dsv
+[2.478s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/package.dsv
+[2.484s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/ament_index/resource_index/packages/turtlebot3_rl
+[2.489s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/cmake/turtlebot3_rlConfig.cmake
+[2.495s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/cmake/turtlebot3_rlConfig-version.cmake
+[2.501s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/package.xml
+[2.506s] -- Installing: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//launch
+[2.506s] -- Installing: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//launch/warehouse_driver_launch.py
+[2.507s] -- Installing: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//launch/warehouse_launch.py
+[2.509s] Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jala/ros2_ws/build/turtlebot3_rl

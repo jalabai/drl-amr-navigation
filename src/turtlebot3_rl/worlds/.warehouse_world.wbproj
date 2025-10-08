@@ -1,0 +1,17 @@
+Webots Project File version R2025a
+perspectives: 000000ff00000000fd0000000200000001000000750000031dfc0200000001fb0000001400540065007800740045006400690074006f007201000000130000031d0000003f00ffffff00000003000007740000009dfc0100000001fb0000001a0043006f006e0073006f006c00650041006c006c0041006c006c0100000000000007740000006900ffffff000006fd0000031d00000001000000020000000100000008fc00000000
+simulationViewPerspectives: 000000ff00000001000000020000018d000003030100000002010000000100
+sceneTreePerspectives: 000000ff00000001000000030000001c000002b2000000fa0100000002010000000200
+maximizedDockId: -1
+centralWidgetVisible: 1
+orthographicViewHeight: 1
+textFiles: -1
+consoles: Console:All:All
+renderingDevicePerspectives: Forklift:test_camera;1;1;0;0
+renderingDevicePerspectives: Mir100:depth_camera;1;0.4875;0;0
+renderingDevicePerspectives: NAO:CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO:CameraTop;1;1;0;0
+renderingDevicePerspectives: e-puck:camera;1;1;0;0
+renderingDevicePerspectives: worker_bot:CameraBottom;1;1;0;0
+renderingDevicePerspectives: worker_bot:CameraTop;1;1;0;0
+renderingDevicePerspectives: worker_bot:camera;1;1;0;0

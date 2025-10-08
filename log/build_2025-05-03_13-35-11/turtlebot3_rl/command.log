@@ -1,0 +1,4 @@
+Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8
+Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8
+Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jala/ros2_ws/build/turtlebot3_rl
+Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jala/ros2_ws/build/turtlebot3_rl

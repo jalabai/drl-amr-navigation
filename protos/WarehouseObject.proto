@@ -1,0 +1,29 @@
+PROTO ForkliftBot [
+  field SFVec3f    translation  0 0 0.05
+  field SFRotation rotation     0 1 0 0
+  field SFColor    color        0.8 0.1 0.1
+] {
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller "forklift_controller"
+    name "forklift"
+    children [
+      Shape {
+        appearance Appearance {
+          material Material {
+            diffuseColor IS color
+          }
+        }
+        geometry Box {
+          size 0.3 0.5 0.15
+        }
+      }
+    ]
+    boundingObject Box {
+      size 0.3 0.5 0.15
+    }
+    physics Physics { }
+    supervisor TRUE
+  }
+}

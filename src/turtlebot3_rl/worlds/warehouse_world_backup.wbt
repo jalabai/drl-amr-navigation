@@ -1,0 +1,159 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+  title "warehouse_world"
+}
+Viewpoint {
+  orientation -0.2139034723144208 0.17812123648072328 0.9604780734854971 1.7912791250517426
+  position 4.134869074524041 -30.882794883086643 18.809305729179574
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DirectionalLight {
+  direction 0 -1 -1
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 0.01
+  intensity 0.8
+  location 0 0 5
+  radius 10
+  castShadows TRUE
+}
+Floor {
+  appearance PBRAppearance {
+    baseColor 0.9 0.9 0.9
+    roughness 1
+  }
+}
+Solid {
+  translation 0 4.5 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+      }
+      geometry Box {
+        size 10 0.2 0.4
+      }
+    }
+  ]
+  name "Wall_North"
+  boundingObject Box {
+    size 10 0.2 0.4
+  }
+}
+Solid {
+  translation 0 -4.5 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+      }
+      geometry Box {
+        size 10 0.2 0.4
+      }
+    }
+  ]
+  name "Wall_South"
+  boundingObject Box {
+    size 10 0.2 0.4
+  }
+}
+Solid {
+  translation 4.5 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+      }
+      geometry Box {
+        size 0.2 10 0.4
+      }
+    }
+  ]
+  name "Wall_East"
+  boundingObject Box {
+    size 0.2 10 0.4
+  }
+}
+Solid {
+  translation -4.5 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 0.3
+      }
+      geometry Box {
+        size 0.2 10 0.4
+      }
+    }
+  ]
+  name "Wall_West"
+  boundingObject Box {
+    size 0.2 10 0.4
+  }
+}
+Solid {
+  translation -2 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.6 0.6 0.6
+      }
+      geometry Box {
+        size 0.2 6 0.4
+      }
+    }
+  ]
+  name "Shelf_A"
+  boundingObject Box {
+    size 0.2 6 0.4
+  }
+}
+Solid {
+  translation 2 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.6 0.6 0.6
+      }
+      geometry Box {
+        size 0.2 6 0.4
+      }
+    }
+  ]
+  name "Shelf_B"
+  boundingObject Box {
+    size 0.2 6 0.4
+  }
+}
+TurtleBot3Burger {
+  hidden position_0_0 1587.868792291325
+  hidden position_0_1 1587.868789221399
+  hidden position_0_2 -1039.0254992510183
+  hidden position2_0_2 -0.02826256455074528
+  hidden position3_0_2 0.03344194731641314
+  hidden linearVelocity_0 2.061983451608187e-07 6.269155979901463e-11 -2.6059808310535063e-12
+  hidden angularVelocity_0 -1.5225098090208882e-09 6.004730455397032e-09 -1.9809583507408677e-10
+  hidden rotation_8 0 1 0 2.9352988820692167
+  hidden linearVelocity_8 2.061112735162837e-07 -4.149490790782115e-11 -5.2411321595622e-10
+  hidden angularVelocity_8 -2.999998996301283 9.367072549414483e-06 -3.614899344827074e-05
+  hidden rotation_9 -0.10296858432468371 1.805956361193359e-06 0.994684608626729 3.1415955878672936
+  hidden linearVelocity_9 2.0611123119028505e-07 1.200206135205618e-10 4.17881604339431e-10
+  hidden angularVelocity_9 -2.9999989899762 9.367085309332923e-06 -3.6148972769125776e-05
+  hidden rotation_10 0.9997124899355734 -0.010393229441172528 -0.021608291200354828 3.9825747555853312
+  hidden linearVelocity_10 2.059193499289672e-07 -5.68600936244382e-12 6.827337058689808e-11
+  hidden angularVelocity_10 1.4215022929757911e-09 5.147983575716045e-05 2.6216593315588117e-21
+  translation 0.004502127454344007 4.365043113656857 -0.00022030835022292944
+  rotation 0.0031473267253081505 -0.003159385118087495 0.9999900562606409 1.5708031878654478
+  name "TurtleBot3"
+  controller "turtlebot3_controller"
+}

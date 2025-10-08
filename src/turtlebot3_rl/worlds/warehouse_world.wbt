@@ -1,0 +1,207 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.27503339058605036 0.2637736755793728 0.9245431748350581 1.6899345022371264
+  position 0.12748449921673433 -11.82212195679777 10.787277667743318
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  appearance PBRAppearance {
+    baseColor 0.9 0.9 0.9
+    roughness 1
+  }
+}
+DEF WALL1 Solid {
+  translation 0 5 0.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.2 0.2
+      }
+      geometry Box {
+        size 10 0.2 1
+      }
+    }
+  ]
+  name "WALL1"
+  boundingObject Box {
+    size 10 0.2 1
+  }
+}
+DEF WALL2 Solid {
+  translation 0 -5 0.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.2 0.2
+      }
+      geometry Box {
+        size 10 0.2 1
+      }
+    }
+  ]
+  name "WALL2"
+  boundingObject Box {
+    size 10 0.2 1
+  }
+}
+DEF WALL3 Solid {
+  translation 5 0 0.5
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.2 0.2
+      }
+      geometry Box {
+        size 10 0.2 1
+      }
+    }
+  ]
+  name "WALL3"
+  boundingObject Box {
+    size 10 0.2 1
+  }
+}
+DEF WALL4 Solid {
+  translation -5 0 0.5
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.2 0.2
+      }
+      geometry Box {
+        size 10 0.2 1
+      }
+    }
+  ]
+  name "WALL4"
+  boundingObject Box {
+    size 10 0.2 1
+  }
+}
+DEF PALLET1 Solid {
+  translation 4.5 4.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.25 0.05
+      }
+      geometry Box {
+        size 1 1 0.1
+      }
+    }
+  ]
+  name "PALLET_1"
+  boundingObject Box {
+    size 1 1 0.1
+  }
+}
+DEF PALLET2 Solid {
+  translation -4.5 4.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.25 0.05
+      }
+      geometry Box {
+        size 1 1 0.1
+      }
+    }
+  ]
+  name "PALLET_2"
+  boundingObject Box {
+    size 1 1 0.1
+  }
+}
+DEF PALLET3 Solid {
+  translation -4.5 -4.5 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.25 0.05
+      }
+      geometry Box {
+        size 1 1 0.1
+      }
+    }
+  ]
+  name "PALLET_3"
+  boundingObject Box {
+    size 1 1 0.1
+  }
+}
+Solid {
+  translation -2 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.6 0.6 0.6
+      }
+      geometry Box {
+        size 0.2 6 0.4
+      }
+    }
+  ]
+  name "Shelf_A"
+  boundingObject Box {
+    size 0.2 6 0.4
+  }
+}
+Solid {
+  translation 2 0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.6 0.6 0.6
+      }
+      geometry Box {
+        size 0.2 6 0.4
+      }
+    }
+  ]
+  name "Shelf_B"
+  boundingObject Box {
+    size 0.2 6 0.4
+  }
+}
+Pioneer3dx {
+  translation -4 2 0
+  name "ForkliftPioneer"
+  controller "forklift_controller"
+}
+Pioneer3dx {
+  translation 4 -2 0
+  rotation 0 0 1 3.14
+  name "WorkerPioneer"
+  controller "worker_controller"
+}
+DEF TurtleBot3Burger TurtleBot3Burger {
+  name "TurtleBot3Burger"
+  translation 1 0 0.05
+  controller "my_turtlebot3_controller"
+}
+Robot {
+  name "Supervisor"
+  controller "webots_supervisor_reset"
+  supervisor TRUE
+}
+Shape {
+  appearance PBRAppearance {
+  }
+  geometry Box {
+    size 0.1 0.1 0.1
+  }
+}

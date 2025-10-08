@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8
+[0.123s] Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jala/ros2_ws/build/turtlebot3_rl -- -j8 -l8
+[0.132s] Invoking command in '/home/jala/ros2_ws/build/turtlebot3_rl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jala/ros2_ws/build/turtlebot3_rl
+[0.137s] -- Install configuration: ""
+[0.140s] -- Execute custom install script
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world.jpg
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world.wbproj
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world_backup.jpg
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/.warehouse_world_backup.wbproj
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/warehouse_world.wbt
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//worlds/warehouse_world_backup.wbt
+[0.141s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/ament_index/resource_index/package_run_dependencies/turtlebot3_rl
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/ament_index/resource_index/parent_prefix_path/turtlebot3_rl
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/path.sh
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/environment/path.dsv
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.bash
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.sh
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.zsh
+[0.142s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/local_setup.dsv
+[0.142s] -- Symlinking: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/package.dsv
+[0.149s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/ament_index/resource_index/packages/turtlebot3_rl
+[0.150s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/cmake/turtlebot3_rlConfig.cmake
+[0.150s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/cmake/turtlebot3_rlConfig-version.cmake
+[0.150s] -- Up-to-date symlink: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl/package.xml
+[0.150s] -- Up-to-date: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//launch
+[0.150s] -- Installing: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//launch/warehouse_driver_launch.py
+[0.150s] -- Up-to-date: /home/jala/ros2_ws/install/turtlebot3_rl/share/turtlebot3_rl//launch/warehouse_launch.py
+[0.152s] Invoked command in '/home/jala/ros2_ws/build/turtlebot3_rl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jala/ros2_ws/build/turtlebot3_rl

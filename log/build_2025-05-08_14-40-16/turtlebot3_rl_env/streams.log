@@ -1,0 +1,33 @@
+[0.913s] Invoking command in '/home/jala/ros2_ws/src/turtlebot3_rl_env': PYTHONPATH=/home/jala/ros2_ws/build/turtlebot3_rl_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_rl_env build --build-base /home/jala/ros2_ws/build/turtlebot3_rl_env/build install --record /home/jala/ros2_ws/build/turtlebot3_rl_env/install.log --single-version-externally-managed install_data
+[1.158s] running egg_info
+[1.158s] creating ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info
+[1.159s] writing ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/PKG-INFO
+[1.159s] writing dependency_links to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/dependency_links.txt
+[1.160s] writing entry points to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/entry_points.txt
+[1.160s] writing requirements to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/requires.txt
+[1.160s] writing top-level names to ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/top_level.txt
+[1.160s] writing manifest file '../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/SOURCES.txt'
+[1.162s] reading manifest file '../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/SOURCES.txt'
+[1.162s] writing manifest file '../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info/SOURCES.txt'
+[1.163s] running build
+[1.163s] running build_py
+[1.163s] creating /home/jala/ros2_ws/build/turtlebot3_rl_env/build
+[1.163s] creating /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib
+[1.164s] creating /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib/turtlebot3_rl_env
+[1.164s] copying turtlebot3_rl_env/__init__.py -> /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib/turtlebot3_rl_env
+[1.164s] running install
+[1.164s] running install_lib
+[1.165s] creating /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env
+[1.165s] copying /home/jala/ros2_ws/build/turtlebot3_rl_env/build/lib/turtlebot3_rl_env/__init__.py -> /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env
+[1.165s] byte-compiling /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env/__init__.py to __init__.cpython-310.pyc
+[1.166s] running install_data
+[1.166s] creating /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index
+[1.166s] creating /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index
+[1.166s] creating /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index/packages
+[1.166s] copying resource/turtlebot3_rl_env -> /home/jala/ros2_ws/install/turtlebot3_rl_env/share/ament_index/resource_index/packages
+[1.166s] copying package.xml -> /home/jala/ros2_ws/install/turtlebot3_rl_env/share/turtlebot3_rl_env
+[1.166s] running install_egg_info
+[1.168s] Copying ../../build/turtlebot3_rl_env/turtlebot3_rl_env.egg-info to /home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages/turtlebot3_rl_env-0.0.0-py3.10.egg-info
+[1.169s] running install_scripts
+[1.185s] writing list of installed files to '/home/jala/ros2_ws/build/turtlebot3_rl_env/install.log'
+[1.206s] Invoked command in '/home/jala/ros2_ws/src/turtlebot3_rl_env' returned '0': PYTHONPATH=/home/jala/ros2_ws/build/turtlebot3_rl_env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jala/ros2_ws/install/turtlebot3_rl_env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_rl_env build --build-base /home/jala/ros2_ws/build/turtlebot3_rl_env/build install --record /home/jala/ros2_ws/build/turtlebot3_rl_env/install.log --single-version-externally-managed install_data
